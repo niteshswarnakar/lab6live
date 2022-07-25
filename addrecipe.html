@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Column Layout</title>
+    <link rel="stylesheet" href="design.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <main>
+      <section class="first-section container">
+        <div class="header container">
+          <nav class="nav-header">
+            <div class="left-nav">
+              <a href="index.html"> <p class="mybutton">Home</p></a>
+            </div>
+            <div class="right-nav">
+              <a href="addrecipe.html"><p class="mybutton">Send recipe</p></a>
+              <a href="addrecipe.html"> <p class="mybutton2">Order food</p></a>
+            </div>
+          </nav>
+        </div>
+      </section>
+      <section class="body-section">
+        <div class="recipe-form">
+          <div class="form-left">
+            <form class="main-form" method="GET" action="index.html">
+              <div class="form-input">
+                <label class="label">Name of the recipe</label>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  placeholder="eg. Pizza"
+                />
+              </div>
+              <div class="form-input">
+                <label class="label">Food Image</label>
+                <input class="inputfile" type="file" name="food" />
+              </div>
+              <button class="mybutton button" type="submit">Send recipe</button>
+            </form>
+          </div>
+          <div class="form-right">
+            <img class="form-img" src="images/formcharacter.png" />
+          </div>
+        </div>
+      </section>
+
+      <div class="footer-div">
+        <section class="container section-footer">
+          <h2 class="form-heading">Contact Us</h2>
+          <div class="footer-links">
+            <a href="facebook.com">@facebook</a>
+            <a href="https://twitter.com/">@linkedin</a>
+            <a href="twitter.com">@twitter</a>
+            <a href="pinterest.com">@pinterest</a>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,277 @@
+:root {
+  --maincolor: #e67e22;
+  --secondaryColor: #fdf2e9;
+  --mainDark: #cf7711;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--secondaryColor);
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #333;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.nav-header {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #444;
+  align-items: center;
+  padding: 2rem 1rem;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+}
+
+.right-nav {
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-section {
+  /* border: 1px solid black; */
+  height: 87vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-left {
+  margin: 0 20rem 0 4rem;
+  /* background-color: red; */
+  height: 35rem;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mybutton {
+  color: white;
+  padding: 1rem 1.8rem;
+  background-color: #e67e22;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(154, 134, 21, 0.264);
+  transition: all 0.4s;
+}
+
+.mybutton:hover {
+  background-color: #d56809;
+  box-shadow: 1px 1px 10px #e67e22;
+}
+
+.mybutton2 {
+  padding: 1rem 1.8rem;
+  /* border: 2px solid #e67e22; */
+  box-shadow: inset 0 0 0 2px #e67e22;
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+.mybutton2:hover {
+  background-color: white;
+}
+
+.hero-right {
+  border-radius: 2rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: flex-end; */
+}
+.hero-image {
+  width: 150%;
+}
+.primary-heading {
+  padding: 0 2rem;
+  line-height: 1.2;
+  font-size: 3rem;
+}
+.sub-heading {
+  /* background-color: red; */
+  letter-spacing: 0.5rem;
+  padding: 0 2rem;
+  font-size: 2rem;
+  margin-top: 4rem;
+}
+
+.section-food {
+  background-color: lightblue;
+}
+
+.section-foodsection {
+  padding: 9rem;
+}
+
+.food-heading {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.div-food {
+  padding: 9rem 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  /* background-color: white; */
+  justify-items: center;
+  gap: 9rem;
+}
+
+.food-card {
+  /* background-color: aquamarine; */
+  width: 100%;
+}
+
+.food-count {
+  font-size: 10rem;
+  text-align: center;
+  color: #e67e22;
+}
+
+.food-image {
+  width: 100%;
+}
+
+.food-details {
+  /* padding: 2rem 4rem; */
+  background-color: white;
+}
+
+.ingredients,
+.description {
+  padding-top: 2rem;
+  font-size: 6rem;
+  color: rgb(92, 198, 233);
+}
+
+.first-detail,
+.second-detail {
+  margin-bottom: 1rem;
+  padding: 2rem 4rem;
+
+  box-shadow: 1px 1px 10px grey;
+}
+
+.first {
+  padding: 1rem 1rem;
+  border: 1px solid lightblue;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.second {
+  border: 1px solid lightblue;
+  padding: 1rem;
+  line-height: 4rem;
+}
+
+.center-div {
+  margin: auto;
+}
+.footer-div {
+  background-color: black;
+  color: #ddd;
+  padding: 9rem 4rem;
+  height: 40vh;
+}
+
+.footer-links {
+  border: 1px solid white;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+.body-section {
+  height: 90vh;
+}
+
+.recipe-form {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 4px grey;
+  height: 70vh;
+  width: 100rem;
+  padding: 4rem;
+  margin: 4rem auto;
+}
+
+.form-img {
+  padding: 2rem;
+  width: 100%;
+}
+
+.form-left {
+  padding: 2rem;
+  width: 80%;
+  /* background-color: red; */
+}
+
+.main-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 3rem;
+}
+
+.form-input {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.label {
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(23, 185, 239);
+}
+
+.input {
+  width: 40rem;
+  height: 4rem;
+  border: 1px solid rgb(23, 185, 239);
+  padding: 1rem;
+}
+
+.button {
+  border: none;
+  width: 15rem;
+}
+
+.category-button {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
